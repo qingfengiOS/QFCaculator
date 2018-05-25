@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD00DD7520B7E2910000BD2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00DD7420B7E2910000BD2E /* AppDelegate.m */; };
+		FD00DD7820B7E2910000BD2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00DD7720B7E2910000BD2E /* ViewController.m */; };
+		FD00DD7B20B7E2910000BD2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD00DD7920B7E2910000BD2E /* Main.storyboard */; };
+		FD00DD7D20B7E2920000BD2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD00DD7C20B7E2920000BD2E /* Assets.xcassets */; };
+		FD00DD8020B7E2920000BD2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD00DD7E20B7E2920000BD2E /* LaunchScreen.storyboard */; };
+		FD00DD8320B7E2920000BD2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00DD8220B7E2920000BD2E /* main.m */; };
+		FD00DD8D20B7E2920000BD2E /* QFCaculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00DD8C20B7E2920000BD2E /* QFCaculatorTests.m */; };
+		FD00DD9820B7E2920000BD2E /* QFCaculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00DD9720B7E2920000BD2E /* QFCaculatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD00DD8920B7E2920000BD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD00DD6820B7E2910000BD2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD00DD6F20B7E2910000BD2E;
+			remoteInfo = QFCaculator;
+		};
+		FD00DD9420B7E2920000BD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD00DD6820B7E2910000BD2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD00DD6F20B7E2910000BD2E;
+			remoteInfo = QFCaculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD00DD7020B7E2910000BD2E /* QFCaculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFCaculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD00DD7320B7E2910000BD2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD00DD7420B7E2910000BD2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD00DD7620B7E2910000BD2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD00DD7720B7E2910000BD2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD00DD7A20B7E2910000BD2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD00DD7C20B7E2920000BD2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD00DD7F20B7E2920000BD2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD00DD8120B7E2920000BD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD00DD8220B7E2920000BD2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD00DD8820B7E2920000BD2E /* QFCaculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFCaculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD00DD8C20B7E2920000BD2E /* QFCaculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFCaculatorTests.m; sourceTree = "<group>"; };
+		FD00DD8E20B7E2920000BD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD00DD9320B7E2920000BD2E /* QFCaculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFCaculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD00DD9720B7E2920000BD2E /* QFCaculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFCaculatorUITests.m; sourceTree = "<group>"; };
+		FD00DD9920B7E2920000BD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD00DD6D20B7E2910000BD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD00DD8520B7E2920000BD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD00DD9020B7E2920000BD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD00DD6720B7E2910000BD2E = {
+			isa = PBXGroup;
+			children = (
+				FD00DD7220B7E2910000BD2E /* QFCaculator */,
+				FD00DD8B20B7E2920000BD2E /* QFCaculatorTests */,
+				FD00DD9620B7E2920000BD2E /* QFCaculatorUITests */,
+				FD00DD7120B7E2910000BD2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD00DD7120B7E2910000BD2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD00DD7020B7E2910000BD2E /* QFCaculator.app */,
+				FD00DD8820B7E2920000BD2E /* QFCaculatorTests.xctest */,
+				FD00DD9320B7E2920000BD2E /* QFCaculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD00DD7220B7E2910000BD2E /* QFCaculator */ = {
+			isa = PBXGroup;
+			children = (
+				FD00DD7320B7E2910000BD2E /* AppDelegate.h */,
+				FD00DD7420B7E2910000BD2E /* AppDelegate.m */,
+				FD00DD7620B7E2910000BD2E /* ViewController.h */,
+				FD00DD7720B7E2910000BD2E /* ViewController.m */,
+				FD00DD7920B7E2910000BD2E /* Main.storyboard */,
+				FD00DD7C20B7E2920000BD2E /* Assets.xcassets */,
+				FD00DD7E20B7E2920000BD2E /* LaunchScreen.storyboard */,
+				FD00DD8120B7E2920000BD2E /* Info.plist */,
+				FD00DD8220B7E2920000BD2E /* main.m */,
+			);
+			path = QFCaculator;
+			sourceTree = "<group>";
+		};
+		FD00DD8B20B7E2920000BD2E /* QFCaculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD00DD8C20B7E2920000BD2E /* QFCaculatorTests.m */,
+				FD00DD8E20B7E2920000BD2E /* Info.plist */,
+			);
+			path = QFCaculatorTests;
+			sourceTree = "<group>";
+		};
+		FD00DD9620B7E2920000BD2E /* QFCaculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD00DD9720B7E2920000BD2E /* QFCaculatorUITests.m */,
+				FD00DD9920B7E2920000BD2E /* Info.plist */,
+			);
+			path = QFCaculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD00DD6F20B7E2910000BD2E /* QFCaculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD00DD9C20B7E2920000BD2E /* Build configuration list for PBXNativeTarget "QFCaculator" */;
+			buildPhases = (
+				FD00DD6C20B7E2910000BD2E /* Sources */,
+				FD00DD6D20B7E2910000BD2E /* Frameworks */,
+				FD00DD6E20B7E2910000BD2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QFCaculator;
+			productName = QFCaculator;
+			productReference = FD00DD7020B7E2910000BD2E /* QFCaculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD00DD8720B7E2920000BD2E /* QFCaculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD00DD9F20B7E2920000BD2E /* Build configuration list for PBXNativeTarget "QFCaculatorTests" */;
+			buildPhases = (
+				FD00DD8420B7E2920000BD2E /* Sources */,
+				FD00DD8520B7E2920000BD2E /* Frameworks */,
+				FD00DD8620B7E2920000BD2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD00DD8A20B7E2920000BD2E /* PBXTargetDependency */,
+			);
+			name = QFCaculatorTests;
+			productName = QFCaculatorTests;
+			productReference = FD00DD8820B7E2920000BD2E /* QFCaculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD00DD9220B7E2920000BD2E /* QFCaculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD00DDA220B7E2920000BD2E /* Build configuration list for PBXNativeTarget "QFCaculatorUITests" */;
+			buildPhases = (
+				FD00DD8F20B7E2920000BD2E /* Sources */,
+				FD00DD9020B7E2920000BD2E /* Frameworks */,
+				FD00DD9120B7E2920000BD2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD00DD9520B7E2920000BD2E /* PBXTargetDependency */,
+			);
+			name = QFCaculatorUITests;
+			productName = QFCaculatorUITests;
+			productReference = FD00DD9320B7E2920000BD2E /* QFCaculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD00DD6820B7E2910000BD2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = slwy;
+				TargetAttributes = {
+					FD00DD6F20B7E2910000BD2E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					FD00DD8720B7E2920000BD2E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FD00DD6F20B7E2910000BD2E;
+					};
+					FD00DD9220B7E2920000BD2E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FD00DD6F20B7E2910000BD2E;
+					};
+				};
+			};
+			buildConfigurationList = FD00DD6B20B7E2910000BD2E /* Build configuration list for PBXProject "QFCaculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD00DD6720B7E2910000BD2E;
+			productRefGroup = FD00DD7120B7E2910000BD2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD00DD6F20B7E2910000BD2E /* QFCaculator */,
+				FD00DD8720B7E2920000BD2E /* QFCaculatorTests */,
+				FD00DD9220B7E2920000BD2E /* QFCaculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD00DD6E20B7E2910000BD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD00DD8020B7E2920000BD2E /* LaunchScreen.storyboard in Resources */,
+				FD00DD7D20B7E2920000BD2E /* Assets.xcassets in Resources */,
+				FD00DD7B20B7E2910000BD2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD00DD8620B7E2920000BD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD00DD9120B7E2920000BD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD00DD6C20B7E2910000BD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD00DD7820B7E2910000BD2E /* ViewController.m in Sources */,
+				FD00DD8320B7E2920000BD2E /* main.m in Sources */,
+				FD00DD7520B7E2910000BD2E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD00DD8420B7E2920000BD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD00DD8D20B7E2920000BD2E /* QFCaculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD00DD8F20B7E2920000BD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD00DD9820B7E2920000BD2E /* QFCaculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD00DD8A20B7E2920000BD2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD00DD6F20B7E2910000BD2E /* QFCaculator */;
+			targetProxy = FD00DD8920B7E2920000BD2E /* PBXContainerItemProxy */;
+		};
+		FD00DD9520B7E2920000BD2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD00DD6F20B7E2910000BD2E /* QFCaculator */;
+			targetProxy = FD00DD9420B7E2920000BD2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD00DD7920B7E2910000BD2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD00DD7A20B7E2910000BD2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD00DD7E20B7E2920000BD2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD00DD7F20B7E2920000BD2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD00DD9A20B7E2920000BD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD00DD9B20B7E2920000BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD00DD9D20B7E2920000BD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = QFCaculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.QFCaculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD00DD9E20B7E2920000BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = QFCaculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.QFCaculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD00DDA020B7E2920000BD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = QFCaculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.QFCaculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFCaculator.app/QFCaculator";
+			};
+			name = Debug;
+		};
+		FD00DDA120B7E2920000BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = QFCaculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.QFCaculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFCaculator.app/QFCaculator";
+			};
+			name = Release;
+		};
+		FD00DDA320B7E2920000BD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = QFCaculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.QFCaculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFCaculator;
+			};
+			name = Debug;
+		};
+		FD00DDA420B7E2920000BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = QFCaculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.QFCaculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFCaculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD00DD6B20B7E2910000BD2E /* Build configuration list for PBXProject "QFCaculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD00DD9A20B7E2920000BD2E /* Debug */,
+				FD00DD9B20B7E2920000BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD00DD9C20B7E2920000BD2E /* Build configuration list for PBXNativeTarget "QFCaculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD00DD9D20B7E2920000BD2E /* Debug */,
+				FD00DD9E20B7E2920000BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD00DD9F20B7E2920000BD2E /* Build configuration list for PBXNativeTarget "QFCaculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD00DDA020B7E2920000BD2E /* Debug */,
+				FD00DDA120B7E2920000BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD00DDA220B7E2920000BD2E /* Build configuration list for PBXNativeTarget "QFCaculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD00DDA320B7E2920000BD2E /* Debug */,
+				FD00DDA420B7E2920000BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD00DD6820B7E2910000BD2E /* Project object */;
+}
