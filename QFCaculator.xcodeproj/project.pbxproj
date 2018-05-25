@@ -15,6 +15,8 @@
 		FD00DD8320B7E2920000BD2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00DD8220B7E2920000BD2E /* main.m */; };
 		FD00DD8D20B7E2920000BD2E /* QFCaculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00DD8C20B7E2920000BD2E /* QFCaculatorTests.m */; };
 		FD00DD9820B7E2920000BD2E /* QFCaculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00DD9720B7E2920000BD2E /* QFCaculatorUITests.m */; };
+		FD00DDAA20B7E2B60000BD2E /* NSObject+Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00DDA920B7E2B60000BD2E /* NSObject+Caculator.m */; };
+		FD00DDAD20B7E2C40000BD2E /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00DDAC20B7E2C40000BD2E /* CaculatorMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		FD00DD9320B7E2920000BD2E /* QFCaculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFCaculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD00DD9720B7E2920000BD2E /* QFCaculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFCaculatorUITests.m; sourceTree = "<group>"; };
 		FD00DD9920B7E2920000BD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD00DDA820B7E2B60000BD2E /* NSObject+Caculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Caculator.h"; sourceTree = "<group>"; };
+		FD00DDA920B7E2B60000BD2E /* NSObject+Caculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Caculator.m"; sourceTree = "<group>"; };
+		FD00DDAB20B7E2C40000BD2E /* CaculatorMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
+		FD00DDAC20B7E2C40000BD2E /* CaculatorMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculatorMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				FD00DD7420B7E2910000BD2E /* AppDelegate.m */,
 				FD00DD7620B7E2910000BD2E /* ViewController.h */,
 				FD00DD7720B7E2910000BD2E /* ViewController.m */,
+				FD00DDA820B7E2B60000BD2E /* NSObject+Caculator.h */,
+				FD00DDA920B7E2B60000BD2E /* NSObject+Caculator.m */,
+				FD00DDAB20B7E2C40000BD2E /* CaculatorMaker.h */,
+				FD00DDAC20B7E2C40000BD2E /* CaculatorMaker.m */,
 				FD00DD7920B7E2910000BD2E /* Main.storyboard */,
 				FD00DD7C20B7E2920000BD2E /* Assets.xcassets */,
 				FD00DD7E20B7E2920000BD2E /* LaunchScreen.storyboard */,
@@ -262,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD00DDAA20B7E2B60000BD2E /* NSObject+Caculator.m in Sources */,
+				FD00DDAD20B7E2C40000BD2E /* CaculatorMaker.m in Sources */,
 				FD00DD7820B7E2910000BD2E /* ViewController.m in Sources */,
 				FD00DD8320B7E2920000BD2E /* main.m in Sources */,
 				FD00DD7520B7E2910000BD2E /* AppDelegate.m in Sources */,
